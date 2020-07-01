@@ -73,7 +73,7 @@ before simulation:
 
 #### Perform Simulation
 
-* Insure folder `C:\Program Files (x86)\FxPro - Terminal2\tester\files` is empty or it does not contain file `OrdersResultsT2.csv`
+* Insure folder `C:/Program Files (x86)/MetaTrader - AxiTrader - Term2/tester/files` is empty or it does not contain file `OrdersResultsT2.csv`
 * Press button `Start` to initiate trades simulation
 
 Optional: check tab `Graph` of Strategy Tester to evaluate distribution of trade results
@@ -125,7 +125,7 @@ library(lubridate)
 library(tidyverse)
 
 # folders with results //change this path//
-DFOLDER <- "C:/Users/fxtrams/Documents/000_TradingRepo/FALCON_D/TS"
+DFOLDER <- "C:/Users/Kris/Documents/GitHub/LazyTrade/FALCON_D/ts"
 
 DFR <- opt_aggregate_results(DFOLDER)
 

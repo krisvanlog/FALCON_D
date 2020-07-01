@@ -1,0 +1,12 @@
+Run FalconDBacktestAutoLaunch
+
+Each currency pair needs a settings .ini file and a pull from DevMT4 .bat file.
+
+Both of these files need to be added to FalconBacktestAutoLaunch.bat
+
+
+
+Results get pulled into Github/LazyTrade/Falcon_D/ts within folders named as currency pair tested
+
+
+Run Y2016_SimulationFalconD R script. It pulls data from folders in Github/LazyTrade/Falcon_D/ts and outputs a nice visual analysis.
