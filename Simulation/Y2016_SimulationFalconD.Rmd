@@ -125,7 +125,7 @@ library(lubridate)
 library(tidyverse)
 
 # folders with results //change this path//
-DFOLDER <- "C:/Users/Kris/Documents/GitHub/LazyTrade/FALCON_D/ts"
+DFOLDER <- "C:/Users/Kris/Documents/GitHub/LazyTrade/FALCON_D/TEST"
 
 DFR <- opt_aggregate_results(DFOLDER)
 
